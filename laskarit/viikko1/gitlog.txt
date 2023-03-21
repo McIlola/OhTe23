@@ -1,0 +1,113 @@
+commit 72990438d932a6cbf955dbbfa09b285270740999
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 18:28:25 2023 +0200
+
+    uusi
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 53c4c7bb293bc4a466e1ce91436778a98be38e1c
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 18:21:05 2023 +0200
+
+    uusi
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit b907e2723cf3bede2aa3cf9358d1409d514f26a3
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 18:13:02 2023 +0200
+
+    muutos
+
+ eka.txt      |  2 +-
+ kolmas.txt   |  2 +-
+ tiedosto.txt | 33 ---------------------------------
+ 3 files changed, 2 insertions(+), 35 deletions(-)
+
+commit 3e13ff55fa33310cd27589e76c7eb240d7ca59f4
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 18:08:03 2023 +0200
+
+    poisto
+
+ eka.txt | 33 +++++++++++++++++++++++++++++++++
+ 1 file changed, 33 insertions(+)
+
+commit ee0650d4d71befbaf037db33539a46316735f7bd
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 18:05:02 2023 +0200
+
+    poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 05a7cfbc9178771c049a80ecfe3b3ad131b3be62
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 18:02:39 2023 +0200
+
+    muutos
+
+ tiedosto.txt | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+
+commit f2c530afe7db985d443301c0b1efb7a20d102501
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 18:01:09 2023 +0200
+
+    muutos
+
+ tiedosto.txt | 39 ++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 38 insertions(+), 1 deletion(-)
+
+commit b5f615c26b8ce664a571127d259a2eabb11389b8
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 17:53:05 2023 +0200
+
+    lisäys
+
+ stuff/jokin.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 043e76d57f6906e5bf66335ba479fc8ee3422ee9
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 17:50:49 2023 +0200
+
+    lisäys ja muutos
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 4edc5cb99ae94a3e2325df3139f69730f5f08f77
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 17:48:25 2023 +0200
+
+    lisäys
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit e233b28efa472041a6325d14b01726fa08581e68
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 17:43:11 2023 +0200
+
+    muutos ja lisäys
+
+ toinen.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c984cc3cf539dda555e401b81e633bd98e642801
+Author: Matias Ilola <ilola.matte@gmail.com>
+Date:   Tue Mar 21 17:39:55 2023 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 1 +
+ 1 file changed, 1 insertion(+)
