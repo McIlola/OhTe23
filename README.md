@@ -5,7 +5,6 @@
 
 [komentorivi.txt](laskarit/viikko1/komentorivi.txt)
 
-[vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
 ### Otsikko
 
 **Lihavaa jess**
@@ -15,6 +14,6 @@
 ***Molemmat***
 Ei erityistä.
 
+[vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
 ### Viikko 2
-
-[Työtuntikirja](dokumentaatio/
+[Työtuntikirja](dokumentaatio/tyotunti.md)
