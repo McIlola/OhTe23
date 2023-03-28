@@ -16,4 +16,4 @@ Ei erityistä.
 
 [vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
 ### Viikko 2
-[Työtuntikirja](dokumentaatio/tyotunti.md)
+[Työtuntikirja](dokumentaatio/tyoaika.md)
