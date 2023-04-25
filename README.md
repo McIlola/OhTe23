@@ -6,7 +6,7 @@
 - [Changelog](dokumentaatio/changelog.md)
 
 ## Komentorivitoiminnot
-## Asennus
+### Asennus
 
 Asenna riippuvuudet komennolla:
 ```bash
