@@ -4,6 +4,7 @@
 - [Vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
 - [Työtuntikirja](dokumentaatio/tyoaika.md)
 - [Changelog](dokumentaatio/changelog.md)
+- [Release viikko 5](Releases/viikko5)
 
 ## Komentorivitoiminnot
 ### Asennus
