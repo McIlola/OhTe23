@@ -1,3 +1,4 @@
+import sys
 import pygame
 
 class Pong:
@@ -7,6 +8,10 @@ class Pong:
         self.width=640
         self.height=480
         self.surface=pygame.display.set_mode((self.width,self.height))
+        
+        self.mode1=False
+        self.mode2=False
+        self.start_screen()
         
         self.x_player1=0
         self.y_player1=0
@@ -30,16 +35,36 @@ class Pong:
         self.clock=pygame.time.Clock()
         self.loop()
         
-        
     def loop(self):
         while True:
             self.search_events()
             self.draw_screen()
+    
+    def start_screen(self):
+        while True:
+            self.surface.fill((0, 0, 0))
+            self.modebutton1=pygame.Rect(self.width/2-75,50,150,50)
+            pygame.draw.rect(self.surface,(255,0,0),self.modebutton1)
+            font=pygame.font.SysFont("Arial",24)
+            text1=font.render("Normal mode",True,(0,0,0))
+            self.surface.blit(text1,(self.modebutton1.centerx-text1.get_width()/2,self.modebutton1.centery-text1.get_height()/2))
+            for event in pygame.event.get():
+                if event.type==pygame.MOUSEBUTTONDOWN:
+                    if pygame.Rect.collidepoint(self.modebutton1,event.pos):
+                        self.mode1=True
+                        break        
+                if event.type == pygame.QUIT: 
+                    sys.exit()
+                if self.mode1: 
+                    break       
+            pygame.display.flip()
+            if self.mode1: 
+                break
 
     def search_events(self):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                exit()
+                sys.exit()                
             if event.type == pygame.KEYDOWN:    
                 if event.key == pygame.K_w and self.y_player1>=0:
                     self.up_player1 = True
@@ -119,4 +144,4 @@ class Pong:
         self.clock.tick(60)
 
 if __name__ == "__main__":
-    Pong()  
+    Pong()
