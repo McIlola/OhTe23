@@ -6,3 +6,4 @@
 | 4.4|2|Poetry install ja dokumentteja|
 | 13.4|3|Perus tominnallisuutta lisätty|
 | 18.4|5|Perus tominnallisuutta lisätty|
+| 25.4|7|Perus tominnallisuutta lisätty ja release|
