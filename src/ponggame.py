@@ -25,12 +25,13 @@ class Pong:
         self.down_player2 = False
         self.player2=pygame.Rect(self.x_player2,self.y_player2,20,100)
         
+        self.counter=0
         self.x_ball=320
         self.y_ball=240
         self.ballsize=20
         self.ball=pygame.Rect(self.x_ball,self.y_ball,self.ballsize,self.ballsize)
-        self.speed_x=2
-        self.speed_y=2
+        self.speed_x=1
+        self.speed_y=1
 
         self.clock=pygame.time.Clock()
         self.loop()
@@ -127,7 +128,8 @@ class Pong:
         #pygame.Rect.colliderect(self.ball,self.player1):
         if self.x_ball<self.player1.width:
             if (self.y_ball+self.ball.height)>=self.y_player1 and self.y_ball<=self.y_player1+self.player1.height:
-                self.speed_x=-self.speed_x    
+                self.speed_x=-self.speed_x
+                self.counter+=1    
             else:
                 self.speed_x=0
                 self.speed_y=0
@@ -136,10 +138,14 @@ class Pong:
         if self.x_ball+self.ballsize>=self.x_player2:
             if (self.y_ball+self.ball.height)>=self.y_player2 and self.y_ball<=self.y_player2+self.player1.height:
                 self.speed_x=-self.speed_x
+                self.counter+=1
             else:
                 self.speed_x=0
                 self.speed_y=0
-        
+        if self.counter%10==0:
+            self.speed_x+=1
+            self.speed_y+=1
+            self.counter+=1
         self.player1=pygame.Rect(self.x_player1,self.y_player1,20,100)
         pygame.draw.rect(self.surface,(255,0,0),self.player1)
         self.player2=pygame.Rect(self.x_player2,self.y_player2,20,100)
