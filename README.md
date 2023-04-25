@@ -6,7 +6,12 @@
 - [Changelog](dokumentaatio/changelog.md)
 
 ## Komentorivitoiminnot
+## Asennus
 
+Asenna riippuvuudet komennolla:
+```bash
+poetry install
+```
 ### Ohjelman suorittaminen
 
 Ohjelman pystyy suorittamaan komennolla:
