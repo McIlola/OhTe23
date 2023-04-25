@@ -4,7 +4,7 @@
 - [Vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
 - [Työtuntikirja](dokumentaatio/tyoaika.md)
 - [Changelog](dokumentaatio/changelog.md)
-- [Release viikko 5](Releases/viikko5)
+- [Release viikko 5](https://github.com/McIlola/OhTe23/releases/tag/viikko5)
 
 ## Komentorivitoiminnot
 ### Asennus
