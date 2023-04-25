@@ -5,3 +5,5 @@
 ## Viikko 4
 - Pomppiva pallo lisätty.
 - Pallo pomppii pois liikkuvista palasista.
+## Viikko 5
+- Aloitusnäyttö lisätty.
