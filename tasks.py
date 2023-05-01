@@ -5,7 +5,7 @@ def foo(ctx):
     print("bar")
 
 @task
-def game(ctx):
+def start(ctx):
     ctx.run("python3 src/ponggame.py", pty=True)
 
 @task
