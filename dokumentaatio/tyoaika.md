@@ -7,3 +7,4 @@
 | 13.4|3|Perus tominnallisuutta lisätty|
 | 18.4|5|Perus tominnallisuutta lisätty|
 | 25.4|7|Perus tominnallisuutta lisätty ja release|
+| 2.5|2|Koodikatselmointi|
