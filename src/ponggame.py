@@ -54,15 +54,24 @@ class Pong:
     def start_screen(self):
         while True:
             self.surface.fill((0, 0, 0))
+            
             self.modebutton1=pygame.Rect(self.width/2-75,50,150,50)
             pygame.draw.rect(self.surface,(255,0,0),self.modebutton1)
+            
             self.modebutton2=pygame.Rect(self.width/2-75,150,150,50)
             pygame.draw.rect(self.surface,(255,0,0),self.modebutton2)
+            
             self.font=pygame.font.SysFont("Arial",24)
             text1=self.font.render("Normal mode",True,(0,0,0))
             self.surface.blit(text1,(self.modebutton1.centerx-text1.get_width()/2,self.modebutton1.centery-text1.get_height()/2))
             text2=self.font.render("Hard mode",True,(0,0,0))
             self.surface.blit(text2,(self.modebutton2.centerx-text2.get_width()/2,self.modebutton2.centery-text2.get_height()/2))
+            
+            self.quitbutton=pygame.Rect(self.width-160,10,150,50)
+            pygame.draw.rect(self.surface,(255,0,0),self.quitbutton)
+            self.quittext=self.font.render(f"Quit",True,(0,0,0))
+            self.surface.blit(self.quittext,(self.quitbutton.centerx-self.quittext.get_width()/2,self.quitbutton.centery-self.quittext.get_height()/2))
+            
             for event in pygame.event.get():
                 if event.type==pygame.MOUSEBUTTONDOWN:
                     if pygame.Rect.collidepoint(self.modebutton1,event.pos):
@@ -70,7 +79,9 @@ class Pong:
                         break
                     if pygame.Rect.collidepoint(self.modebutton2,event.pos):
                         self.mode2=True
-                        break                
+                        break
+                    if pygame.Rect.collidepoint(self.quitbutton,event.pos):
+                        sys.exit()                
                 if event.type == pygame.QUIT: 
                     sys.exit()
                 if self.mode1 or self.mode2: 
