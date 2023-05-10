@@ -44,7 +44,7 @@ class Pong:
         
     def loop(self):
         while True:
-            if self.score1>=1 or self.score2>=10:
+            if self.score1>=10 or self.score2>=10:
                 self.gameover()
             else:
                 self.search_events()
