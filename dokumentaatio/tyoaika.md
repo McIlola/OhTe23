@@ -8,3 +8,5 @@
 | 18.4|5|Perus tominnallisuutta lisätty|
 | 25.4|7|Perus tominnallisuutta lisätty ja release|
 | 2.5|2|Koodikatselmointi|
+| 8.5|5|Pistelaskuri ja loppu|
+| 10.5|3|Loppu lisäys|
