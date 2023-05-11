@@ -3,6 +3,8 @@ import pygame
 
 class Pong:
     def __init__(self) -> None:
+        """Creates variables to the game, starts the start_screen and starts the loop.
+        """
         pygame.init()
 
         self.width=640
@@ -42,7 +44,9 @@ class Pong:
         self.loop()
         
         
-    def loop(self):
+    def loop(self):           
+        """Loops search_events and draw_screen until one of the player reaches 10 points and the it goes to the gameover screen.
+        """                     
         while True:
             if self.score1>=10 or self.score2>=10:
                 self.gameover()
@@ -52,6 +56,8 @@ class Pong:
             
     
     def start_screen(self):
+        """Creates buttons to choose difficulty and a quit button, when something is chosen it acts acordingly.
+        """            
         while True:
             self.surface.fill((0, 0, 0))
             
@@ -91,6 +97,8 @@ class Pong:
                 break
 
     def search_events(self):
+        """Checks for key inputs.
+        """        
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()                
@@ -118,6 +126,8 @@ class Pong:
                     self.down_player2 = False
 
     def draw_screen(self):
+        """Draws the screen and controls movements.
+        """        
         self.surface.fill((0, 0, 0))
         
         pygame.draw.line(self.surface,(255,255,255),(0,50),(self.width,50))
@@ -195,6 +205,8 @@ class Pong:
         self.clock.tick(60)
 
     def gameover(self):
+        """Creates the gameover screen where the player chooses to start again or to quit.
+        """        
         self.surface.fill((0, 0, 0))
         if self.score1>=10:
             winner="1"
