@@ -5,7 +5,9 @@ Ohjelma on klassinen pong peli jossa kimmotetaan palloa edes takaisin.
 
 Sovelluksen toiminta on testattu Python-versiolla `3.8`. Etenkin vanhempien Python-versioiden kanssa saattaa ilmentyä ongelmia.
 ## Dokumentaatio
+- [Käyttöohje](./dokumentaatio/kayttoohje.md)
 - [Vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
+- [Arkkitehtuurikuvaus](./dokumentaatio/arkkitehtuuri.md)
 - [Työtuntikirja](dokumentaatio/tyoaika.md)
 - [Changelog](dokumentaatio/changelog.md)
 - [Release viikko 5](https://github.com/McIlola/OhTe23/releases/tag/viikko5)
