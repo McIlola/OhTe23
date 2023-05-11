@@ -10,3 +10,5 @@
 | 2.5|2|Koodikatselmointi|
 | 8.5|5|Pistelaskuri ja loppu|
 | 10.5|3|Loppu lisäys|
+| 11.5|3|Dokumentaatiota|
+|yht|31||
