@@ -1,5 +1,9 @@
 # Ohjelmistotekniikka, harjoitustyö
+## Pong
+Ohjelma on klassinen pong peli jossa kimmotetaan palloa edes takaisin.
+## Huomio Python-versiosta
 
+Sovelluksen toiminta on testattu Python-versiolla `3.8`. Etenkin vanhempien Python-versioiden kanssa saattaa ilmentyä ongelmia.
 ## Dokumentaatio
 - [Vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
 - [Työtuntikirja](dokumentaatio/tyoaika.md)
